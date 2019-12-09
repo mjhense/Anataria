@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <gamestate>
+    <name>Player 1</name>
+    <class>Warrior</class>
+    <race>Human</race>
+    <level>1</level>
+    <xp>0</xp>
+    <hp>24</hp>
+    <str>27</str>
+    <dex>16</dex>
+    <sta>18</sta>
+    <int>5</int>
+    <cha>6</cha>
+    <quest>0</quest>
+    <scrollx>28</scrollx>
+    <scrolly>20</scrolly>
+    <currentLevel>Training Tutorial.level</currentLevel>
+    <gold>0</gold>
+    <element>Fire</element>
+    <herox>352</herox>
+    <heroy>252</heroy>
+    <item00 />
+    <item01 />
+    <item02 />
+    <item03 />
+    <item04 />
+    <item05 />
+    <item06 />
+    <item07 />
+    <item08 />
+    <item09 />
+    <item10 />
+    <item11 />
+    <item12 />
+    <item13 />
+    <item14 />
+    <item15 />
+    <item16 />
+    <item17 />
+    <item18 />
+    <item19 />
+    <item20 />
+    <item21 />
+    <item22 />
+    <item23 />
+    <item24 />
+    <item25 />
+    <item26 />
+    <item27 />
+    <item28 />
+    <item29 />
+    <item30 />
+  </gamestate>
+</DocumentElement>

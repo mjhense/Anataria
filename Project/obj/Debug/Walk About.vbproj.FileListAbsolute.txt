@@ -1,0 +1,16 @@
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\bin\Debug\Walk About.exe
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\bin\Debug\Walk About.pdb
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\bin\Debug\Walk About.xml
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk_About.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk_About.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk About.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk About.exe
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk About.xml
+C:\books\VB Game Programming For Teens 3E\chap12-objects\Walk About\Walk About\obj\Debug\Walk About.pdb
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Walk About\obj\Debug\Walk About.exe
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Walk About\obj\Debug\Walk About.xml
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Walk About\obj\Debug\Walk About.pdb
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Walk About.exe
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Walk About.xml
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Walk About.pdb

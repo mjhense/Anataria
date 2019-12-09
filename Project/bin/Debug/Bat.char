@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Bat</name>
+    <class>Warrior</class>
+    <race>Mamal</race>
+    <desc>A black colored bat.</desc>
+    <str>21</str>
+    <dex>17</dex>
+    <sta>15</sta>
+    <int>7</int>
+    <cha>6</cha>
+    <hitpoints>19</hitpoints>
+    <anim_walk_filename>bat walk.png</anim_walk_filename>
+    <anim_walk_width>128</anim_walk_width>
+    <anim_walk_height>128</anim_walk_height>
+    <anim_walk_columns>11</anim_walk_columns>
+    <anim_attack_filename>bat attack.png</anim_attack_filename>
+    <anim_attack_width>128</anim_attack_width>
+    <anim_attack_height>128</anim_attack_height>
+    <anim_attack_columns>10</anim_attack_columns>
+    <anim_die_filename>bat die.png</anim_die_filename>
+    <anim_die_width>128</anim_die_width>
+    <anim_die_height>128</anim_die_height>
+    <anim_die_columns>10</anim_die_columns>
+    <anim_talk_filename>bat talk.png</anim_talk_filename>
+    <anim_talk_width>128</anim_talk_width>
+    <anim_talk_height>128</anim_talk_height>
+    <anim_talk_columns>10</anim_talk_columns>
+    <dropgold1>10</dropgold1>
+    <dropgold2>15</dropgold2>
+    <drop1_num>1</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item>White Staff</drop1_item>
+    <drop2_item />
+    <drop3_item />
+    <element>Dark</element>
+  </character>
+</DocumentElement>

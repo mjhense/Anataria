@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Fired Web</name>
+    <class>N/A</class>
+    <race>N/A</race>
+    <desc>A fired string of webing.</desc>
+    <str>0</str>
+    <dex>0</dex>
+    <sta>1</sta>
+    <int>0</int>
+    <cha>0</cha>
+    <hitpoints>1</hitpoints>
+    <anim_walk_filename>webFire.png</anim_walk_filename>
+    <anim_walk_width>32</anim_walk_width>
+    <anim_walk_height>32</anim_walk_height>
+    <anim_walk_columns>8</anim_walk_columns>
+    <anim_attack_filename>webFire.png</anim_attack_filename>
+    <anim_attack_width>32</anim_attack_width>
+    <anim_attack_height>32</anim_attack_height>
+    <anim_attack_columns>8</anim_attack_columns>
+    <anim_die_filename>webFire.png</anim_die_filename>
+    <anim_die_width>32</anim_die_width>
+    <anim_die_height>32</anim_die_height>
+    <anim_die_columns>8</anim_die_columns>
+    <anim_talk_filename>webFire.png</anim_talk_filename>
+    <anim_talk_width>32</anim_talk_width>
+    <anim_talk_height>32</anim_talk_height>
+    <anim_talk_columns>8</anim_talk_columns>
+    <dropgold1>1</dropgold1>
+    <dropgold2>10</dropgold2>
+    <drop1_num>0</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item />
+    <drop2_item />
+    <drop3_item />
+    <element>fire</element>
+  </character>
+</DocumentElement>

@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Pyro Dragon</name>
+    <class>Paladin</class>
+    <race>Dragon</race>
+    <desc>A dragon that lives near the mountain volcanoe.</desc>
+    <str>42</str>
+    <dex>37</dex>
+    <sta>84</sta>
+    <int>8</int>
+    <cha>21</cha>
+    <hitpoints>154</hitpoints>
+    <anim_walk_filename>Fire Dragon Walk.png</anim_walk_filename>
+    <anim_walk_width>128</anim_walk_width>
+    <anim_walk_height>128</anim_walk_height>
+    <anim_walk_columns>9</anim_walk_columns>
+    <anim_attack_filename>Fire Dragon Attack.png</anim_attack_filename>
+    <anim_attack_width>128</anim_attack_width>
+    <anim_attack_height>128</anim_attack_height>
+    <anim_attack_columns>9</anim_attack_columns>
+    <anim_die_filename>Fire Dragon Die.png</anim_die_filename>
+    <anim_die_width>128</anim_die_width>
+    <anim_die_height>128</anim_die_height>
+    <anim_die_columns>11</anim_die_columns>
+    <anim_talk_filename>Fire Dragon Talk.png</anim_talk_filename>
+    <anim_talk_width>128</anim_talk_width>
+    <anim_talk_height>128</anim_talk_height>
+    <anim_talk_columns>7</anim_talk_columns>
+    <dropgold1>10</dropgold1>
+    <dropgold2>20</dropgold2>
+    <drop1_num>1</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item>Red Key</drop1_item>
+    <drop2_item />
+    <drop3_item />
+    <element>Fire</element>
+  </character>
+</DocumentElement>

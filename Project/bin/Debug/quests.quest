@@ -1,0 +1,663 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <quest>
+    <title>Getting Started</title>
+    <summary>Obtain the purple key</summary>
+    <description>Locate the silver key nearby. To pick up an item, walk near it and when a circle appears around the item, press "space" to pick it up.
+
+Rewards: 5 Experience</description>
+    <req_item>Gold Key</req_item>
+    <req_item_count>1</req_item_count>
+    <req_item_flag>true</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>5</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>Socialization</title>
+    <summary>Learn some social skills.</summary>
+    <description>You have to know how to talk to NPCs. To communicate with a NPC, walk near them and a dialogue box will appear.
+
+Rewards: 5 Experience</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>true</req_npc_flag>
+    <req_npc>TutorialKnight2</req_npc>
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>5</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>Combat Training</title>
+    <summary>Slay the spider.</summary>
+    <description>You won' t get very far in Celtic Crusader without combat training. Slay the spider. To attack an enemy, walk in range and press "enter."
+
+Rewards: 5 Experience</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>true</req_kill_flag>
+    <req_kill_npc>Red Spider</req_kill_npc>
+    <req_kill_count>1</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>5</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>First Quest</title>
+    <summary>Investigate the fire.</summary>
+    <description>You spot a fire in the distance. Curious, you had south to investigate.
+
+Rewards: 2 Gold, 3 Experience</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>true</req_loc_flag>
+    <req_loc_x>-1</req_loc_x>
+    <req_loc_y>-1</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>2</reward_gold>
+    <reward_item />
+    <reward_xp>3</reward_xp>
+    <req_portal_file>PillagedVillage.level</req_portal_file>
+  </quest>
+  <quest>
+    <title>A Bad Feeling</title>
+    <summary>Find out what happened.</summary>
+    <description>Look for a survivor and inquire about the villages' fate.
+
+Rewards: 10 Gold, 10 Experience</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>true</req_npc_flag>
+    <req_npc>Wounded Farmer</req_npc>
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>10</reward_gold>
+    <reward_item />
+    <reward_xp>10</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>Pursuit</title>
+    <summary>Find the bandits and bring them to justice</summary>
+    <description>The village was pillaged. The bandits couldn' t have gotten far. Exit the village, find the bandits, question them ...and punish them. The peasant said the bandits were headed west.
+
+Rewards: 2 Gold, 8 Experience</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>true</req_kill_flag>
+    <req_kill_npc>Skeleton</req_kill_npc>
+    <req_kill_count>3</req_kill_count>
+    <reward_gold>2</reward_gold>
+    <reward_item>Skeleton Bone</reward_item>
+    <reward_xp>8</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>What the Hell?</title>
+    <summary>Learn of the origin of the undead.</summary>
+    <description>You know that the undead have been extinct for a melenia. So where did the three you just fought come from? For a minute you ponder the possibillity of the impossible. Suddenly, you remember where to find the  answers you seek. You start west to find the scholar Urix, the head monk of the monastary on the isle of faith. You can gain passage via the port city in the north east.</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>true</req_npc_flag>
+    <req_npc>Urix</req_npc>
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>30</reward_gold>
+    <reward_item>Silver Key</reward_item>
+    <reward_xp>20</reward_xp>
+    <req_portal_file>Monastary.level</req_portal_file>
+  </quest>
+  <quest>
+    <title>A Hero's Mission</title>
+    <summary>Enter the Silent Forest</summary>
+    <description>Urix won't tell you anymore about the anomaly unless you bring him the first key. He said the key is located deep inside the Silent Forest. The entrance to the forest is where you fought the three undead skeletons.
+
+Rewards: 10 Experience, 50 Gold</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>true</req_loc_flag>
+    <req_loc_x>-1</req_loc_x>
+    <req_loc_y>-1</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>50</reward_gold>
+    <reward_item />
+    <reward_xp>10</reward_xp>
+    <req_portal_file>Silent Forest.level</req_portal_file>
+  </quest>
+  <quest>
+    <title>The Silent Forest</title>
+    <summary>Navigate the Silent Forest.</summary>
+    <description>You have arrived at the forest. However, the first divine key is located deep inside at the heart of the forest. You must navigate your way to the key's location.
+
+Rewards: 10 Experience, 50 Gold</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>true</req_loc_flag>
+    <req_loc_x>-1</req_loc_x>
+    <req_loc_y>-1</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>50</reward_gold>
+    <reward_item />
+    <reward_xp>10</reward_xp>
+    <req_portal_file>Silent Forest(Inner).level</req_portal_file>
+  </quest>
+  <quest>
+    <title>The Key of Silence</title>
+    <summary>Continue your search for the key.</summary>
+    <description>Make your way to the heart of the Silent Forest.</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>true</req_loc_flag>
+    <req_loc_x>87</req_loc_x>
+    <req_loc_y>87</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file>Silent Forest(Inner).level</req_portal_file>
+  </quest>
+  <quest>
+    <title>Silent Entry</title>
+    <summary>Open the path.</summary>
+    <description>The key must be inside the temple, but the entrance is blocked by spikes. You feel a powerful dark force coming from the spike barrier. The barrier must be powered by the dark creatures! Search for the dark creatures and destroy them!</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>true</req_kill_flag>
+    <req_kill_npc>Zombie</req_kill_npc>
+    <req_kill_count>1</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>The Temple of Silence</title>
+    <summary>Enter the Temple of Silence</summary>
+    <description>That did it! The barrier receeded. Now you must enter the temple.
+
+Rewards: 10 Experience, 50 Gold</description>
+    <req_item />
+    <req_item_count>1</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>true</req_loc_flag>
+    <req_loc_x>-1</req_loc_x>
+    <req_loc_y>-1</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>1</req_kill_count>
+    <reward_gold>50</reward_gold>
+    <reward_item />
+    <reward_xp>100</reward_xp>
+    <req_portal_file>Silent Temple F1.level</req_portal_file>
+  </quest>
+  <quest>
+    <title>The Divine Key of Silence</title>
+    <summary>Obtain the Key of Silence.</summary>
+    <description>The key must be in here... Find it.</description>
+    <req_item>Green Key</req_item>
+    <req_item_count>1</req_item_count>
+    <req_item_flag>true</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>true</req_kill_flag>
+    <req_kill_npc>Swamp Gardian</req_kill_npc>
+    <req_kill_count>1</req_kill_count>
+    <reward_gold>50</reward_gold>
+    <reward_item />
+    <reward_xp>100</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>The Whole Story</title>
+    <summary>Get the rest of the story from Urix</summary>
+    <description>You have the first key now. You must take back to Urix at the monastary to hear the rest of the story.</description>
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>true</req_npc_flag>
+    <req_npc>Urix</req_npc>
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>10</reward_gold>
+    <reward_item />
+    <reward_xp>200</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>new quest</title>
+    <summary />
+    <description />
+    <req_item />
+    <req_item_count>0</req_item_count>
+    <req_item_flag>false</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>false</req_kill_flag>
+    <req_kill_npc />
+    <req_kill_count>0</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+  <quest>
+    <title>Into The Fire</title>
+    <summary>Obtain the Key of Fire.</summary>
+    <description>Locate and obtain the dungeons magic key.
+
+Rewards: 200 Experience, 21 Gold</description>
+    <req_item>Red Key</req_item>
+    <req_item_count>1</req_item_count>
+    <req_item_flag>true</req_item_flag>
+    <req_loc_flag>false</req_loc_flag>
+    <req_loc_x>0</req_loc_x>
+    <req_loc_y>0</req_loc_y>
+    <req_npc_flag>false</req_npc_flag>
+    <req_npc />
+    <req_kill_flag>true</req_kill_flag>
+    <req_kill_npc>Lava Troll/Lava Dragon</req_kill_npc>
+    <req_kill_count>1</req_kill_count>
+    <reward_gold>0</reward_gold>
+    <reward_item />
+    <reward_xp>0</reward_xp>
+    <req_portal_file />
+  </quest>
+</DocumentElement>

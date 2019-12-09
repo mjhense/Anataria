@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Urix</name>
+    <class>Monk</class>
+    <race>Human</race>
+    <desc>The head monk of the western monastary,</desc>
+    <str>6</str>
+    <dex>8</dex>
+    <sta>4</sta>
+    <int>11</int>
+    <cha>10</cha>
+    <hitpoints>7</hitpoints>
+    <anim_walk_filename>monk walk.png</anim_walk_filename>
+    <anim_walk_width>96</anim_walk_width>
+    <anim_walk_height>96</anim_walk_height>
+    <anim_walk_columns>9</anim_walk_columns>
+    <anim_attack_filename>monk walk.png</anim_attack_filename>
+    <anim_attack_width>96</anim_attack_width>
+    <anim_attack_height>96</anim_attack_height>
+    <anim_attack_columns>9</anim_attack_columns>
+    <anim_die_filename>monk walk.png</anim_die_filename>
+    <anim_die_width>96</anim_die_width>
+    <anim_die_height>96</anim_die_height>
+    <anim_die_columns>9</anim_die_columns>
+    <anim_talk_filename>monk talk.png</anim_talk_filename>
+    <anim_talk_width>96</anim_talk_width>
+    <anim_talk_height>96</anim_talk_height>
+    <anim_talk_columns>7</anim_talk_columns>
+    <dropgold1>1</dropgold1>
+    <dropgold2>10</dropgold2>
+    <drop1_num>1</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item>Silver Key</drop1_item>
+    <drop2_item />
+    <drop3_item />
+    <element>Holy</element>
+  </character>
+</DocumentElement>

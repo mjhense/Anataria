@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Lava Troll</name>
+    <class>Warrior</class>
+    <race>Troll</race>
+    <desc>A troll that consists of lava due to the conditions of the region that it lives in.</desc>
+    <str>68</str>
+    <dex>29</dex>
+    <sta>40</sta>
+    <int>8</int>
+    <cha>5</cha>
+    <hitpoints>56</hitpoints>
+    <anim_walk_filename>Lava Troll Walk.png</anim_walk_filename>
+    <anim_walk_width>96</anim_walk_width>
+    <anim_walk_height>96</anim_walk_height>
+    <anim_walk_columns>8</anim_walk_columns>
+    <anim_attack_filename>Troll_Attack.png</anim_attack_filename>
+    <anim_attack_width>96</anim_attack_width>
+    <anim_attack_height>96</anim_attack_height>
+    <anim_attack_columns>13</anim_attack_columns>
+    <anim_die_filename>Troll_Die.png</anim_die_filename>
+    <anim_die_width>96</anim_die_width>
+    <anim_die_height>96</anim_die_height>
+    <anim_die_columns>17</anim_die_columns>
+    <anim_talk_filename>Lava Troll Talk.png</anim_talk_filename>
+    <anim_talk_width>96</anim_talk_width>
+    <anim_talk_height>96</anim_talk_height>
+    <anim_talk_columns>9</anim_talk_columns>
+    <dropgold1>0</dropgold1>
+    <dropgold2>0</dropgold2>
+    <drop1_num>0</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item />
+    <drop2_item />
+    <drop3_item />
+    <element />
+  </character>
+</DocumentElement>

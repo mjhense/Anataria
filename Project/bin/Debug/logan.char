@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Logan</name>
+    <class>Hunter</class>
+    <race>Dragon</race>
+    <desc>A hunter that is a dragon.</desc>
+    <str>12</str>
+    <dex>9</dex>
+    <sta>10</sta>
+    <int>7</int>
+    <cha>2</cha>
+    <hitpoints>11</hitpoints>
+    <anim_walk_filename>Croc_Warrior_Walk.png</anim_walk_filename>
+    <anim_walk_width>100</anim_walk_width>
+    <anim_walk_height>100</anim_walk_height>
+    <anim_walk_columns>8</anim_walk_columns>
+    <anim_attack_filename>Croc_Warrior_Attack.png</anim_attack_filename>
+    <anim_attack_width>94</anim_attack_width>
+    <anim_attack_height>96</anim_attack_height>
+    <anim_attack_columns>8</anim_attack_columns>
+    <anim_die_filename>Croc_Warrior_Die.png</anim_die_filename>
+    <anim_die_width>96</anim_die_width>
+    <anim_die_height>96</anim_die_height>
+    <anim_die_columns>8</anim_die_columns>
+    <anim_talk_filename />
+    <anim_talk_width>96</anim_talk_width>
+    <anim_talk_height>96</anim_talk_height>
+    <anim_talk_columns>8</anim_talk_columns>
+    <dropgold1>0</dropgold1>
+    <dropgold2>1</dropgold2>
+    <drop1_num>1</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item>Skeleton Bone</drop1_item>
+    <drop2_item />
+    <drop3_item />
+  </character>
+</DocumentElement>

@@ -1,0 +1,46 @@
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.exe.config
+G:\Celtic Crusader\Project\obj\x86\Debug\Interop.MediaPlayer.dll
+G:\Celtic Crusader\Project\obj\x86\Debug\Interop.WMPLib.dll
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.vbproj.ResolveComReference.cache
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.exe.manifest
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.application
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.exe
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.pdb
+G:\Celtic Crusader\Project\bin\x86\Debug\Project.xml
+G:\Celtic Crusader\Project\bin\x86\Debug\GdiGaming.dll
+G:\Celtic Crusader\Project\bin\x86\Debug\GdiGaming.pdb
+G:\Celtic Crusader\Project\bin\x86\Debug\GdiGaming.xml
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.vbprojResolveAssemblyReference.cache
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.Form1.resources
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.Resources.resources
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.vbproj.GenerateResource.Cache
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.exe.manifest
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.application
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.exe
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.xml
+G:\Celtic Crusader\Project\obj\x86\Debug\Project.pdb
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.exe.config
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Interop.MediaPlayer.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Interop.WMPLib.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.vbproj.ResolveComReference.cache
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.exe
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.xml
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.exe.config
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Interop.MediaPlayer.dll
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Interop.WMPLib.dll
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.vbproj.ResolveComReference.cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.exe
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.xml
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.exe.manifest
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.application
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.exe
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\x86\Debug\Project.xml
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.vbprojResolveAssemblyReference.cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.Form1.resources
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.Resources.resources
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.vbproj.GenerateResource.Cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.exe.manifest
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\x86\Debug\Project.application

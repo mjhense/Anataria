@@ -1,0 +1,348 @@
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\bin\Debug\lua51.dll
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap13-portals\Portal Demo\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\bin\Debug\lua51.dll
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap14-chars\Character Demo\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 2\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 1\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 1\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap15-dialogue\Dialogue Demo 1\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 1\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 2\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 3\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 4\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap16-fighting\Combat Demo 5\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap18-inv\Looting Demo\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap19-quests\Quest Demo\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\bin\Debug\LuaInterface.dll
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\bin\Debug\lua51.dll
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\books\VB Game Programming For Teens 3E\chap20\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+C:\Users\Owner\Documents\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.application
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.application
+G:\Celtic Crusader\Project\bin\Debug\Project.exe.config
+G:\Celtic Crusader\Project\obj\Debug\Project.exe
+G:\Celtic Crusader\Project\obj\Debug\Project.xml
+G:\Celtic Crusader\Project\obj\Debug\Project.pdb
+G:\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+G:\Celtic Crusader\Project\bin\Debug\Project.application
+G:\Celtic Crusader\Project\bin\Debug\Project.exe
+G:\Celtic Crusader\Project\bin\Debug\Project.pdb
+G:\Celtic Crusader\Project\bin\Debug\Project.xml
+G:\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+G:\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+G:\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+G:\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+G:\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+G:\Celtic Crusader\Project\obj\Debug\Project.application
+C:\Celtic Crusader\Project\bin\Debug\Project.exe.config
+C:\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+C:\Celtic Crusader\Project\bin\Debug\Project.application
+C:\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+C:\Celtic Crusader\Project\obj\Debug\Project.application
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.exe.config
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.application
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\Users\Owner\Desktop\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+C:\Users\Owner\Desktop\Celtic Crusader\Project\obj\Debug\Project.application
+G:\Celtic Crusader\Project\bin\Debug\GdiGaming.pdb
+G:\Celtic Crusader\Project\bin\Debug\GdiGaming.xml
+C:\Celtic Crusader\Project\bin\Debug\GdiGaming.pdb
+C:\Celtic Crusader\Project\bin\Debug\GdiGaming.xml
+G:\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+G:\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+G:\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+G:\Celtic Crusader\Project\obj\Debug\Interop.VIDEOCDLIBLib.dll
+C:\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+C:\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+C:\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Game.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.xml
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.xml
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Game.xml
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
+G:\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Xact.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Interop.VIDEOCDLIBLib.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Game.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\GdiGaming.pdb
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\GdiGaming.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Content.Pipeline.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Game.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Microsoft.Xna.Framework.Xact.xml
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.application
+G:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+F:\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.application
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+\\gbcsstudents01\008457$\Visual Studio 2012\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.exe.config
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.exe
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.xml
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.pdb
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.application
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.exe
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.pdb
+F:\Programming\Visual Basic\Celtic Crusader\Project\bin\Debug\Project.xml
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+F:\Programming\Visual Basic\Celtic Crusader\Project\obj\Debug\Project.application
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+C:\Users\mhense\Documents\Visual Studio 2013\Projects\Celtic Crusader\Project\obj\Debug\Project.application
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.config
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Interop.WMPLib.dll
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.ResolveComReference.cache
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.exe
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.xml
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.pdb
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.exe.manifest
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.application
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.exe
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.pdb
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\bin\Debug\Project.xml
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.vbprojResolveAssemblyReference.cache
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.Form1.resources
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.Resources.resources
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.vbproj.GenerateResource.Cache
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.exe.manifest
+C:\Users\mhense\Documents\Visual Studio 2015\Projects\Celtic Crusader\Project\obj\Debug\Project.application

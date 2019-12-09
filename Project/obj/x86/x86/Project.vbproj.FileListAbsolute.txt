@@ -1,0 +1,4 @@
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\bin\x86\x86\Project.exe.config
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\x86\Interop.MediaPlayer.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\x86\Interop.WMPLib.dll
+H:\Programming\Visual Basic\Projects\Celtic Crusader\Project\obj\x86\x86\Project.vbproj.ResolveComReference.cache

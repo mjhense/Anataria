@@ -1,0 +1,1895 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GdiGaming
+</name>
+</assembly>
+<members>
+<member name="E:GdiGaming.GameEngine.FrameComplete">
+	<summary>
+ Occurs once per frame after the frame has been drawn and any wait time has elapsed.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameEngine.GameLoop">
+	<summary>
+ Occurs once per frame after all drawing but before any wait time.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameEngine.GamePaused">
+	<summary>
+ Occurs when an active game is paused.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameEngine.GameResumed">
+	<summary>
+ Occurs when a paused game is resumed.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameEngine.GameStarted">
+	<summary>
+ Occurs when a stopped game is started.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameEngine.GameStopped">
+	<summary>
+ Occurs when the current frame is finished, after a call to EndGame.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Audio">
+	<summary>
+ Gets the active GameAudio instance for this game, which provides access to playing sounds and music.
+ </summary>
+	<value></value>
+	<returns>The current GameAudio instance for this game.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Canvas">
+	<summary>
+ Gets or sets the RenderCanvas control responsible for drawing the GameEngine image buffers.
+ </summary>
+	<value>Sets the RenderCanvas to be used by the GameEngine.</value>
+	<returns>Gets the RenderCanvas used by the GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.ContainerControl">
+	<summary>
+ Gets or sets the parent control (typically a Form) hosting this GameEngine.
+ </summary>
+	<value>Sets the parent control for the GameEngine.</value>
+	<returns>Gets the parent control of the GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.CurrentScene">
+	<summary>
+ Gets the GameEngines current GameScene instance specified by the CurrentSceneName property value.
+ </summary>
+	<value></value>
+	<returns>The current GameScene instance, or Nothing (Null) if the CurrentSceneName property is not set.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.CurrentSceneName">
+	<summary>
+ The name of the active GameScene for this game. Must be the name of a GameScene added to
+ the GameEngine.Scenes collection.
+ </summary>
+	<value>Sets the name of the current GameScene.</value>
+	<returns>Gets the name of the current GameScene.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.EngineState">
+	<summary>
+ Gets the operational state of the GameEngine.
+ </summary>
+	<value></value>
+	<returns>The operational state of the GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.FrameRate">
+	<summary>
+ Gets the actual frame rate for the game as of the last frame.
+ </summary>
+	<value></value>
+	<returns>The game frame rate as of the last frame.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.IsEndGamePending">
+	<summary>
+ Indicates that the EndGame method has been called, but execution of the current game loop iteration has not yet completed.
+ </summary>
+	<value></value>
+	<returns>True if the game is ending, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.IsRunningSlow">
+	<summary>
+ Indicates if the game is currently running at less that 80% of the target frame rate.
+ </summary>
+	<value></value>
+	<returns>True if the game is running slowly, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Input">
+	<summary>
+ Gets the active GameInput instance for this GameEngine, providing access to mouse and keyboard input information.
+ </summary>
+	<value></value>
+	<returns>The current GameInput instance for this GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.TargetFrameRate">
+	<summary>
+ Gets or sets the desired frame rate. This value should be left at 30.0.
+ </summary>
+	<value>Sets the target frame rate.</value>
+	<returns>Gets the target frame rate.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Resources">
+	<summary>
+ Gets the active AssetManager for this GameEngine. The AssetManager handles loading and caching
+ resources. Assets should normally be requested from the CurrentScene and not from the AssetManager
+ directly. Use the AssetManager to manually add assets to the game at run-time.
+ </summary>
+	<value></value>
+	<returns>The active AssetManager instance for this GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Scenes">
+	<summary>
+ Contains the collection of GameScene objects which make up this game.
+ </summary>
+	<value></value>
+	<returns>The collection of GameScene objects which make up this game.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameEngine.Time">
+	<summary>
+ Gets the active GameTime instance for this GameEngine, providing access to the last frame time
+ as well as elapsed real time and elapsed game time.
+ </summary>
+	<value></value>
+	<returns>The active GameTime instance for this GameEngine.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameEngine.EndGame">
+	<summary>
+ Signals the current game to end.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameEngine.PauseGame">
+	<summary>
+ Pauses the running game.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameEngine.StartGame">
+	<summary>
+ Starts the game from the beginning if it is stopped, or unpauses the game if it is paused.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameEngine">
+	<summary>
+ The primary GdiGaming API component responsible for executing the game loop and managing the game.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AssetManager.AssetFolderName">
+	<summary>
+ The name of the projects Asset folder.  This value is "Assets" by default.
+ </summary>
+	<value>Sets the name of the Asset folder.</value>
+	<returns>Gets the name of the Asset folder.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AssetManager.GameDataFile">
+	<summary>
+ The name of the .cfg data file containing global game data to be loaded when the game starts.
+ </summary>
+	<value>Sets the name of the data file.</value>
+	<returns>Gets the name of the data file.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetAudioAsset(System.String)">
+	<summary>
+ Gets the file path to an audio asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the audio asset whose URI should be returned.</param>
+	<returns>A System.URI containing the path to the audio asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetImageAsset(System.String)">
+	<summary>
+ Gets the Bitmap instance for an image asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the image asset Bitmap to return.</param>
+	<returns>The Bitmap for this image asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetFlagAsset(System.String)">
+	<summary>
+ Gets the boolean value for the flag asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the asset to return.</param>
+	<returns>The value of the specified asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetIntegerAsset(System.String)">
+	<summary>
+ Gets the integer value for the asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the asset to return.</param>
+	<returns>The value of the specified asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetSingleAsset(System.String)">
+	<summary>
+ Gets the single value for the asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the asset to return.</param>
+	<returns>The value of the specified asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetStringAsset(System.String)">
+	<summary>
+ Gets the string value for the asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the asset to return.</param>
+	<returns>The value of the specified asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.GetAsset``1(System.String)">
+	<summary>
+ Gets the value for the asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the asset to return.</param>
+	<returns>The value of the specified asset.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetAudioAsset(System.String,System.Uri)">
+	<summary>
+ Adds an audio asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetImageAsset(System.String,System.Drawing.Bitmap)">
+	<summary>
+ Adds an image asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetFlagAsset(System.String,System.Boolean)">
+	<summary>
+ Adds a flag (boolean) asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetIntegerAsset(System.String,System.Int32)">
+	<summary>
+ Adds an integer asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetSingleAsset(System.String,System.Single)">
+	<summary>
+ Adds a single asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetStringAsset(System.String,System.String)">
+	<summary>
+ Adds a string asset the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AssetManager.SetAsset``1(System.String,``0)">
+	<summary>
+ Adds an asset of type T the cache, or replaces the existing if the specified assetName exists.
+ </summary>
+	<param name="assetName">The name of the asset to add or replace.</param>
+	<param name="assetValue">The asset to add or replace.</param>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.AssetManager">
+	<summary>
+ Manages the game's asset folder and supplies actual assets to the AssetBank.
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:GdiGaming.GameBackground">
+	<summary>
+ Provides the basic container for game backgrounds.  Custom backgrounds can be derived from this class, however
+ the provided StaticBackground and ScrollingBackground classes can suffice in many cases.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameBackgroundCollection.ToZOrderedArray">
+	<summary>
+ Returns a GameBackground array of this collection's contents, sorted by z-order.
+ </summary>
+	<returns>An array of GameBackground sorted by z-order.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameBackgroundCollection">
+	<summary>
+ Provides a collection of GameBackgrounds keyed by name which can be sorted by z-order.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObjectCollection.AddRange(System.Collections.Generic.IEnumerable{GdiGaming.GameObject})">
+	<summary>
+ Adds a group of GameObjects to the collection.
+ </summary>
+	<param name="items">The IEnumerable source of GameObjects to add.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObjectCollection.ToZOrderedArray">
+	<summary>
+ Returns a GameObject array of this collection's contents, sorted by z-order.
+ </summary>
+	<returns>An array of GameObject sorted by z-order.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameObjectCollection">
+	<summary>
+ Provides a collection of GameObjects keyed by name which can be sorted by z-order.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.HudImage">
+	<summary>
+ Provides a simple object to draw Sprites on the game's head's-up-display (HUD).
+ By default the HudImage does not process input, but you can enable it by setting ProcessInput = True.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.HudLabel.ActualBounds">
+	<summary>
+ Gets the calculated on-screen rectangle bounding this label.
+ </summary>
+	<value></value>
+	<returns>The calculated on-screen rectangle bounding this label.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.HudLabel.ActualSize">
+	<summary>
+ Gets the calculated size of the label based on text and rendering options.
+ </summary>
+	<value></value>
+	<returns>The actual size of the label.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.HudLabel.ActualPosition">
+	<summary>
+ Gets the calculated position of the label if UseCenterPositioning is specified, otherwise gets Position.
+ </summary>
+	<value></value>
+	<returns>The on-screen position of the label.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.HudLabel.AutoSize">
+	<summary>
+ Specifies whether the label should be sized automaticaly according to its text.
+ </summary>
+	<value></value>
+	<returns>True if the label is sized automatically, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.HudLabel">
+	<summary>
+ Provides a text label for the game's heads-up-display (HUD).
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.ScrollingBackground.AutoScroll">
+	<summary>
+ Determines if the background scrolls automatically, or by manual calls to ScrollOneFrame.
+ </summary>
+	<value></value>
+	<returns>True if the background scrolls automatically, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.ScrollingBackground.InvertDirection">
+	<summary>
+ Determines if the scroll direction is inverted.
+ </summary>
+	<value></value>
+	<returns>True if the scroll direction is inverted, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.ScrollingBackground.ScrollDirection">
+	<summary>
+ The direction in which the background should scroll.
+ </summary>
+	<value></value>
+	<returns>The Orientation value specifing the scroll direction.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.ScrollingBackground.ScrollSpeed">
+	<summary>
+ The speed, in pixels per second, at which the background should scroll.
+ </summary>
+	<value></value>
+	<returns>A System.Single representing the speed to scroll in pixels per second.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.ScrollingBackground.ScrollOneFrame(GdiGaming.GameTime)">
+	<summary>
+ Scrolls the background for one frame of time.
+ </summary>
+	<param name="time">The GameTime instance containing the current game time.</param>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.ScrollingBackground">
+	<summary>
+ Provides a scrolling, wrap-around image as a background layer for the game.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.SpriteCollection.ToZOrderedArray">
+	<summary>
+ Returns the contents of the collection as an array of Sprites sorted by their z-order value.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.SpriteCollection">
+	<summary>
+ Provides a collection of Sprites keyed by name which can be sorted by z-order.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameEngine.GameEngineSceneCollection">
+	<summary>
+ Contains the collection of GameScene objects belonging to a GameEngine.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameTime.LastFrame">
+	<summary>
+ The fractional number of seconds elapsed during the last frame. This value is often used
+ to time update logic in operations-per-second by multiplying a target value by LastFrame.
+ </summary>
+	<value></value>
+	<returns>The fractional duration in seconds of the last frame.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameTime.SecondsElapsedTotal">
+	<summary>
+ The amount of real-word time which has elapsed since the GameEngine started.
+ </summary>
+	<value></value>
+	<returns>The total number of real-world seconds elapsed.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameTime.SecondsElapsed">
+	<summary>
+ The amount of game-time which has elapsed since the GameEngine started.
+ </summary>
+	<value></value>
+	<returns>The total number of game-time seconds elapsed.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameTime.StartTime">
+	<summary>
+ The time at which the game started.
+ </summary>
+	<value></value>
+	<returns>The date and time when the GameEngine started.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameTime">
+	<summary>
+ Tracks and provides access to the game execution time.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.DictionaryBank`1.CanSerialize">
+	<summary>
+ Indicates if this instance can be serialized.
+ This property returns true providing that the DictionaryBank only contains types which support serialization.
+ </summary>
+	<value></value>
+	<returns>False if the DictionaryBank contains any type which does not support serialization; otherwise, true.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Load(System.String)">
+	<summary>
+ Creates a new instance of DictionaryBank from the existing file specified.
+ </summary>
+	<param name="fromFile">The name and path to the file which contains the binary serialization to load.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Load(System.IO.Stream)">
+	<summary>
+ Creates a new instance of DictionaryBank from the IO stream provided.
+ </summary>
+	<param name="targetStream">The stream which contains the binary serialization to load.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.IsSerializable(System.Type)">
+	<summary>
+ Indicates if the specified type supports serialization.
+ </summary>
+	<param name="objectType">The type to examine.</param>
+	<returns>True if instances of this type support serialization; otherwise, false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.IsSerializable(System.Object)">
+	<summary>
+ Indicates if instances of objects of the specified type support serialization.
+ </summary>
+	<param name="objectInstance">The instance of an object whose type will be examined.</param>
+	<returns>True if instances of this type support serialization; otherwise, false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Clear``1">
+	<summary>
+ Clears all values of the specfied type from the DictionaryBank. This does not remove the base type dictionary.
+ </summary>
+	<typeparam name="TValue">The type of {TValue} whose dictionary should be cleared.</typeparam>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.ClearAll">
+	<summary>
+ Clears all values from all type dicitionaries in the DictionaryBank. This does not remove the base type dictionaries.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.ContainsDictionary``1">
+	<summary>
+ Indicates if this DictionaryBank contains a type dictionary for the type {TValue}.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.ContainsKey``1(`0)">
+	<summary>
+ Indicates if the DictionaryBank contains a value of {TValue} with the given key.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Count``1">
+	<summary>
+ Returns the number of items of type {TValue} contained in this DictionaryBank.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Count">
+	<summary>
+ Returns the total number of items of every type contained in this DictionaryBank.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetKeys``1">
+	<summary>
+ Gets all keys of the given type {TValue} contained in this DictionaryBank.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetTypeList">
+	<summary>
+ Returns an array of Type objects containing an entry for each unique {TValue} type contained in this DictionaryBank.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetValue``1(`0)">
+	<summary>
+ Gets the value of the given type {TValue} for the key specified.
+ If no type dictionary exists for {TValue}, or the key is not found, this method returns Nothing.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetValues``1">
+	<summary>
+ Gets all values of the given type {TValue} contained in this DictionaryBank.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetValues(`0)">
+	<summary>
+ Gets an array of object values for all types contained in this DictionaryBank which have the specified key.
+ </summary>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.GetValues(`0,System.Type[])">
+	<summary>
+ Gets an array of object values for all types specified by the valueTypes parameter contained in this DictionaryBank which have the specified key.
+ </summary>
+	<param name="key"></param>
+	<param name="valueTypes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Remove``1(`0)">
+	<summary>
+  Removes the value for the specified key from the existing type dicitionary for {TValue}, if one exists.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<param name="key"></param>
+	<returns>True if an item with the specified key was found in the type dictionary for {TValue}, and removed; otherwise, false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.RemoveAll">
+	<summary>
+ Removes all type dictionaries from the DictionaryBank and resets the CanSerialize property to true.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.RemoveDictionary``1">
+	<summary>
+ Removes the type dictionary for the specified type from the DictionaryBank, updates the serialization status, and returns true if successful.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Save(System.String)">
+	<summary>
+ Saves this instance of DictionaryBank to a binary data file on disk.
+ </summary>
+	<param name="toFile"></param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Save(System.IO.Stream,System.Boolean)">
+	<summary>
+ Writes this instance of DictionaryBank to a bindary stream.
+ </summary>
+	<param name="targetStream"></param>
+	<param name="leaveOpen"></param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.SetValue``1(`0,``0)">
+	<summary>
+ Sets the value for the specified key. If a type dicitionary for {TValue} does not exist, one will be created.
+ </summary>
+	<typeparam name="TValue"></typeparam>
+	<param name="key"></param>
+	<param name="value"></param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.DictionaryBank`1.Trim">
+	<summary>
+ Removes empty type dictionaries from the DictionaryBank and returns the number of type dictionaries removed.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.DictionaryBank`1">
+	<summary>
+ Represents a collection of {TKey} keys and multiple types of {TValue} values, where distinct {TValue} types are stored in unique, internal Dictionary(Of TKey, TValue) instances.
+ </summary>
+	<typeparam name="TKey">The type of the keys for all {TValue} types in the DictionaryBank.</typeparam>
+	<remarks>
+ Then DictionaryBank automatically maintains an internal dictionary which is keyed by Type. When items are added to the DictionaryBank
+ using SetValue(Of TValue)(), the DictionaryBank checks for an internal entry whose key is TValue's type. If one is found, then that
+ instance of Dictionary(Of TKey, TValue) is used to add or set the key/value pair passed to the SetValue(Of TValue)() method. 
+ If an internal Dictionary(Of TKey, TValue) is not found for type TValue, then one is created, added to the DictionaryBank, and then
+ used to store the supplied key/value pair.  The Clear() methods will remove entries from an internal dictionary, but will not remove
+ empty dictionaries themselves from the DictionaryBank. To remove internal dictionaries from the DictionaryBank entirely, use an
+ overload of the Remove() method.  Use the Trim() method to remove all empty internal dictionaries from the DictionaryBank.
+</remarks>
+</member><member name="F:GdiGaming.Geometry.ZERO">
+	<summary>
+ 0.0
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.ONE">
+	<summary>
+ 1.0
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.TWO">
+	<summary>
+ 2.0
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.HALF_CIRCLE">
+	<summary>
+ 180 Degrees
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.FULL_CIRCLE">
+	<summary>
+ 360 Degrees
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.RIGHT_ANGLE">
+	<summary>
+ 90 Degrees
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.PI">
+	<summary>
+ The value of PI (3.1415926)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.TWO_PI">
+	<summary>
+ The value of PI * 2
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Geometry.PI_SQUARED">
+	<summary>
+ The value of PI squared.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.#ctor">
+	<summary>
+ This class is sealed.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Clamp(System.Single,System.Single,System.Single)">
+	<summary>
+ Ensures that the specified value falls between the specified min and max values. If value
+ is less than min, value becomes min; if value is greater than max, value becomes max.
+ </summary>
+	<param name="value">The value to clamp.</param>
+	<param name="min">The minimum acceptable value.</param>
+	<param name="max">The maximum acceptable value.</param>
+	<returns>The clamped value.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.ConvertArrayPointFToVector2(System.Drawing.PointF[])">
+	<summary>
+ Converts an array of PointF to an array of Vector2.
+ </summary>
+	<param name="source">The PointF array to convert.</param>
+	<returns>The converted array of Vector2.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.ConvertArrayVector2ToPointF(GdiGaming.Vector2[])">
+	<summary>
+ Converts an array of Vector2 to an array of PointF.
+ </summary>
+	<param name="source">The Vector2 array to convert.</param>
+	<returns>The converted array of PointF.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Cos(System.Single)">
+	<summary>
+ Gets the Cosine of an angle specified in radians.
+ </summary>
+	<param name="radians">The angle in radians.</param>
+	<returns>The Cosine of the angle.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.DegreesToRadians(System.Single)">
+	<summary>
+ Converts the specified angle from degrees to radians.
+ </summary>
+	<param name="degrees">The angle in degrees.</param>
+	<returns>The angle in radians.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.EqualWithin(System.Single,System.Single,System.Single)">
+	<summary>
+ Determines if two values are equal within the specified tolerance.
+ </summary>
+	<param name="source">The first value to compare.</param>
+	<param name="target">The second value to compare.</param>
+	<param name="tolerance">The tolerance between values.</param>
+	<returns>True if the two values are equal within the tolerance, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.GetCollisionVelocity(GdiGaming.Vector2,System.Single,GdiGaming.Vector2,System.Single)">
+	<summary>
+ Gets the resulting velocity vector after two object collide, given their velocities and mass.
+ </summary>
+	<param name="velocityOne">The velocity vector of the first object.</param>
+	<param name="massOne">The mass of the first object.</param>
+	<param name="velocityTwo">The velocity vector of the second object.</param>
+	<param name="massTwo">The mass of the second object.</param>
+	<returns>The velocity resulting from the collision.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.GetPolygonPoints(System.Single,System.Int32,GdiGaming.Vector2)">
+	<summary>
+ Returns an array of Vector2 containing the verticies of a regular polygon with the specified number of sides and radius,
+ located at the specified position.
+ </summary>
+	<param name="radius">The radius of a circle circumscribing the regular polygon.</param>
+	<param name="sides">The number of sides in the regular polygon.</param>
+	<param name="position">The center position of the polygon.</param>
+	<returns>The Vector2 array of polygon verticies.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.GetPolygonPoints(System.Single,System.Int32,System.Drawing.PointF)">
+	<summary>
+ Returns an array of PointF containing the verticies of a regular polygon with the specified number of sides and radius,
+ located at the specified position.
+ </summary>
+	<param name="radius">The radius of a circle circumscribing the regular polygon.</param>
+	<param name="sides">The number of sides in the regular polygon.</param>
+	<param name="position">The center position of the polygon.</param>
+	<returns>The PointF array of polygon verticies.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.IsInfinite(System.Single)">
+	<summary>
+ Determines if the specified value is positive or negative infinity.
+ </summary>
+	<param name="value">The value to check.</param>
+	<returns>True if the value is infinite, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.IsInfinite(GdiGaming.Vector2)">
+	<summary>
+ Determines if either dimension of the specified vector is positive or negative infinity.
+ </summary>
+	<param name="value">The Vector2 to check.</param>
+	<returns>True if the vector is infinite, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.IsRealNumber(System.Single)">
+	<summary>
+ Determines if the specified number is not infinity and is a real number.
+ </summary>
+	<param name="value">The value to check.</param>
+	<returns>True if value is a real number, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Max(System.Single,System.Single)">
+	<summary>
+ Returns the greater of two values.
+ </summary>
+	<param name="value1">The first value to compare.</param>
+	<param name="value2">The second value to compare.</param>
+	<returns>The greater of the two values.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Min(System.Single,System.Single)">
+	<summary>
+ Returns the lesser of two values.
+ </summary>
+	<param name="value1">The first value to compare.</param>
+	<param name="value2">The second value to compare.</param>
+	<returns>The lesser of the two values.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Pow(System.Single,System.Int32)">
+	<summary>
+ Raises a value to the specified exponent.
+ </summary>
+	<param name="value">The value to raise.</param>
+	<param name="exponent">The exponent to raise by.</param>
+	<returns>The value raised to the exponent.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.RadiansToDegrees(System.Single)">
+	<summary>
+ Converts the specified angle from radians to degrees.
+ </summary>
+	<param name="radians">The angle in radians.</param>
+	<returns>The angle in degrees.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Sin(System.Single)">
+	<summary>
+ Gets the Sine of an angle specified in radians.
+ </summary>
+	<param name="radians">The angle in radians.</param>
+	<returns>The Sine of the angle.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Sqrt(System.Single)">
+	<summary>
+ Gets the square-root of the specified value.
+ </summary>
+	<param name="value">The value to get the square-root of.</param>
+	<returns>The square-root of value.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Square(System.Single)">
+	<summary>
+ Squares the specified value.
+ </summary>
+	<param name="value">The value to square.</param>
+	<returns>The square of value.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Swap(System.Single@,System.Single@)">
+	<summary>
+ Exchanges the value of two target System.Single values.
+ </summary>
+	<param name="value1">The first value to swap.</param>
+	<param name="value2">The second value to swap.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.Tan(System.Single)">
+	<summary>
+ Gets the Tangent of an angle specified in radians.
+ </summary>
+	<param name="radians">The angle in radians.</param>
+	<returns>The Tangent of the angle.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.WithinRange(System.Single,System.Single,System.Single)">
+	<summary>
+ Determines if the specified value falls between the specified min and max, inclusive.
+ </summary>
+	<param name="value">The value to check.</param>
+	<param name="min">The minimum acceptable value, inclusive.</param>
+	<param name="max">The maximum acceptable value, inclusive.</param>
+	<returns>True if the value is between min and max, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Geometry.WrapAngle(System.Single)">
+	<summary>
+ Wraps an angle specified in radians to keep it within the circumference of a circle.
+ </summary>
+	<param name="radians">The amount of radians to wrap.</param>
+	<returns>The wrapped angle.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.Geometry">
+	<summary>
+ Provides methods and constants to assist with mathmatic calculations and physics in game logic.
+ </summary>
+	<remarks>
+ This class contains all of the standard methods from System.Math formatted for Single values instead of Double,
+ as well as several helper-methods to assist with object movement and physics calculations.
+ </remarks>
+</member><member name="M:GdiGaming.Sprite.CreateNew(System.String,System.String,System.Drawing.Rectangle)">
+	<summary>
+ Creates a new sprite with the specified name, sprite sheet name, and frame bounds.
+ </summary>
+	<param name="spriteName">The name of the new sprite.</param>
+	<param name="imageSource">The name of the sprite sheet image resource to use.</param>
+	<param name="frame">The rectangle representing the bounds of the frame within the sprite sheet image.</param>
+	<returns>A new sprite with the specified name, sprite sheet name, and frame bounds.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.UniqueId">
+	<summary>
+ The sprite's globally unique identifier.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.Name">
+	<summary>
+ The friendly identifier for this sprite. Sprite names must be unique within
+ a given SpriteCollection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.SpriteSheetName">
+	<summary>
+ The name of the sprite sheet image asset used by this sprite.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.FrameBounds">
+	<summary>
+ Gets the rectangle bounds of this sprite's frame.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.PositionOffset">
+	<summary>
+ The Sprite will be drawn at this offset from it's parent GameObject's center position.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Sprite.ZOrder">
+	<summary>
+ Determines the order in which the Sprite is drawn to the screen.
+ Lower z-order values are drawn first, or underneath, higher z-order values.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Sprite.SetFrameBounds(System.Drawing.Rectangle)">
+	<summary>
+ Sets the rectangle bounds for the frame of this sprite.
+ </summary>
+	<param name="bounds"></param>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.Sprite">
+	<summary>
+ Defines a specific image as a frame within a source image asset.
+ </summary>
+	<remarks>
+ The most common way to display images on a GameObject is through the use of Sprites. A Sprite defines a single graphic file (Image)
+ and frame bounds (Rectangle) within that image. This allows a single image file to serve as a "sprite sheet" containing multiple
+ sprite images and/or multiple image frames of a single sprite. Each GameObject contains a Sprites collection. Any sprite instances
+ added to this collection will be updated and rendered by the GameObject. Each Sprite should only belong to one GameObject.Sprites
+ collection at a time, however, individual Sprite instances can all point to the same asset file. Sprites offer a PositionOffset
+ property which allow you to arrange them on a game object, and this accounts for each object requiring a unique sprite instance. 
+ There is no limit to the number of sprites which can be added to a single game object, however, performance should be considered due
+ to the extra draw operations, especially if scaling or rotation are used.
+ </remarks>
+</member><member name="P:GdiGaming.GameObject.UniqueID">
+	<summary>
+ Every GameObject can be uniquely identified by this value.
+ This value also serves as the object's default name.
+ </summary>
+	<value>A globally unique identifier.</value>
+	<returns>The globally unique identifier for this GameObject.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.CollisionPadding">
+	<summary>
+ Specifies a specific bounding box for collision around this GameObject.
+ Setting this property causes the CollisionRadius to become the smaller of
+ either the width or the height of a rectangle bounding this padding divided by two.
+ </summary>
+	<value>A System.Windows.Forms.Padding object.</value>
+	<returns>The Padding representing the collision bounding for this GameObject.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.CollisionRadius">
+	<summary>
+ Specifies the distance from the center of this GameObject at which collision will be detected.
+ This is the preferred method of specifing collision bounds. Setting this property causes the
+ CollisionPadding.All value to be set to the radius.
+ </summary>
+	<value>A System.Single containing the radius.</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Data">
+	<summary>
+ Provides a named collection of various values which can be saved to disk and restored if needed.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Enabled">
+	<summary>
+ Determines if this GameObject is enabled within the game. Disabled GameObjects do
+ not get processed or drawn to the screen.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.EnableRaisingEvents">
+	<summary>
+ Specifies whether or not this GameObject raises local events which can be subscribed to.
+ Raising events adds additional overhead and should be used sparingly, and with fast-executing event handlers.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.HasCollision">
+	<summary>
+ Specifies whether or not this object responds to collision events.
+ Setting this property to True forces IsCollider to be True.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.IsCollider">
+	<summary>
+ Specifies whether or not this object causes collision.
+ Setting this property to False forces HasCollision to be False.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.IsLoaded">
+	<summary>
+ Specifies whether or not the OnLoaded method has executed for this GameObject.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Name">
+	<summary>
+ The unique name of this GameObject. By default, this is the string representation of the GameObject.UniqueId value.  This name may be
+ changed to make referring to the GameObject easier. However, any GameObjectCollection will treat names as unique keys, so it is not
+ advisable to use the same name for multiple GameObjects.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Position">
+	<summary>
+ The current position of this object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.ProcessInput">
+	<summary>
+ Determines if this GameObject handles its OnInput method.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Sprites">
+	<summary>
+ The collection of Sprite images to be drawn for this object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.UseRectangleCollider">
+	<summary>
+ Determines if collision is calculated based on a bounding rectangle, or circle.  The circle collision is
+ the most efficient so this property is set to False by default.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.Visible">
+	<summary>
+ Determines if this GameObject is drawn to the screen. An invisible GameObject can still process input
+ and updates, but it will not receive a call to OnDraw.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameObject.ZOrder">
+	<summary>
+ The order in which the object is drawn to the screen. Lower z-order objects are drawn first, with
+ higher z-order objects drawn on top. You may specificy negative values to push objects back.
+ Note that z-orders are calculated within the object's local container level; that is, all backgrounds
+ are sorted by z-order, and then objects are sorted by their z-order and drawn, with HUD elements sorted
+ and drawn last.  So a Background with ZOrder = 0 will always be under a HUD element with ZOrder = 0.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.GetCircleCollider">
+	<summary>
+ Returns as Circle bounding this object at its current position.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.GetRectangleCollider">
+	<summary>
+ Returns a Rectangle bounding this object at its current position.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnCollision(GdiGaming.CollisionEventArgs)">
+	<summary>
+ This method is called by the GameEngine when this object collides with another GameObject.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime, as well as information about the collision.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnDraw(GdiGaming.DrawEventArgs)">
+	<summary>
+ This method is called by the GameEngine once per frame when the object is drawn to the screen.
+ The default implementation draws each Sprite in this GameObject to the screen.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime, as well as the Graphics object to draw with.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnLoad(GdiGaming.GameEngineEventArgs)">
+	<summary>
+ This method is called by the GameEngine the first time the object is accessed each frame, if the IsLoaded property equals false.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnInput(GdiGaming.GameEngineEventArgs)">
+	<summary>
+ This method is called by the GameEngine once per frame at the beginning of each engine iteration, if
+ the ProcessInput property is true on this object.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnMouseDown(GdiGaming.GameEngineEventArgs)">
+	<summary>
+ This method is called by the GameEngine once per frame if a mousedown event was detected.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnMouseUp(GdiGaming.GameEngineEventArgs)">
+	<summary>
+ This method is called by the GameEngine once per frame if a mouseup event was detected.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameObject.OnUpdate(GdiGaming.GameEngineEventArgs)">
+	<summary>
+ This method is called by the GameEngine once per frame to allow this GameObject to execute its AI logic.
+ The default implementation updates all Sprites in this GameObject.
+ </summary>
+	<param name="e">A GameEngineEventArgs instance containing a reference to the GameEngine and GameTime.</param>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameObject">
+	<summary>
+ Provides the basic container for all game elements.  Each game will define classes which inherit
+ from GameObject to create the various characters and objects in the game, as well as control objects
+ such as engine state machines.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.KeyboardStateInfo.Item(System.Windows.Forms.Keys)">
+	<summary>
+ Gets the pressed-state for the specified keyboard key.
+ </summary>
+	<param name="key">The keyboard key whose state should be returned.</param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.KeyboardStateInfo">
+	<summary>
+ Tracks the state of each key on the keyboard.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AnimatedSprite.AnimationRate">
+	<summary>
+ Specifies the amount of time that it takes to complete one cycle of this animation.
+ For example, if there are 4 frames and AnimationRate = 1.0 then each frame is displayed
+ for 1/4 of a second.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AnimatedSprite.FrameIndex">
+	<summary>
+ Gets or sets the current frame index for this animation. The current frame
+ is the one which will be drawn on the next game loop iteration.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AnimatedSprite.FrameBounds">
+	<summary>
+ Gets the Rectangle bounds of the current frame.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AnimatedSprite.Frames">
+	<summary>
+ The list of frame bounds (Rectangles) which make up this animation.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AnimatedSprite.SetFrameBounds(System.Drawing.Rectangle)">
+	<summary>
+ This method is not implemented on an AnimatedSprite and throws a NotImplementedExcpetion.
+ Add rectangles to the Frames collection instead.
+ </summary>
+	<param name="bounds"></param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.AnimatedSprite.AddFramesHV(System.Int32,System.Int32,System.Single,System.Single,System.Int32,System.Int32)">
+	<summary>
+ Adds multiple rectangles to the Frames collection using a grid pattern moving across columns and then down rows.
+ </summary>
+	<param name="rowCount">The number of rows of frames in the image.</param>
+	<param name="columnCount">The number of columns of frames in the image.</param>
+	<param name="frameWidth">The width of each frame rectangle.</param>
+	<param name="frameHeight">The height of each frame rectangle.</param>
+	<param name="skipRows">The number of rows to skip before capturing frames.</param>
+	<param name="skipColumns">The number of columns to skip before capturing frames.</param>
+	<remarks>
+ Use this method to quickly add multiple frames for an animation when the animation's image contains equally sized
+ frames, arranged in a grid pattern. This method will add frames from left to right and then top to bottom.
+ </remarks>
+</member><member name="M:GdiGaming.AnimatedSprite.AddFramesVH(System.Int32,System.Int32,System.Single,System.Single,System.Int32,System.Int32)">
+	<summary>
+ Adds multiple rectangles to the Frames collection using a grid pattern moving down rows and then across columns.
+ </summary>
+	<param name="rowCount">The number of rows of frames in the image.</param>
+	<param name="columnCount">The number of columns of frames in the image.</param>
+	<param name="frameWidth">The width of each frame rectangle.</param>
+	<param name="frameHeight">The height of each frame rectangle.</param>
+	<param name="skipRows">The number of rows to skip before capturing frames.</param>
+	<param name="skipColumns">The number of columns to skip before capturing frames.</param>
+	<remarks>
+ Use this method to quickly add multiple frames for an animation when the animation's image contains equally sized
+ frames, arranged in a grid pattern. This method will add frames from top to bottom and then left to right.
+ </remarks>
+</member><member name="T:GdiGaming.AnimatedSprite">
+	<summary>
+ Defines an animation as a series of frames within a source image asset.
+ </summary>
+	<remarks>
+ The AnimatedSprite class is a sprite with multiple Frames. The Frames collection should have each frame added in order of animation sequence. 
+ The AnimationRate property can be used to determine how long it takes to play one complete cycle of the animation. In the example below, the 
+ four frames of animation take 1/4 of a second to complete, therefore the animation is playing at 16 frames per second.
+ </remarks>
+</member><member name="E:GdiGaming.GameScene.Draw">
+	<summary>
+ Occurs once per frame after the GameEngine has drawn the scene.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameScene.Load">
+	<summary>
+ Occurs when the GameScene is loaded.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameScene.PreHudDraw">
+	<summary>
+ Occurs once per frame after the GameEngine as drawn all backgrounds and objects
+ in the scene, but before any HUD elements are drawn.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:GdiGaming.GameScene.Update">
+	<summary>
+ Occurs once per frame before any drawing occurs.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.Backgrounds">
+	<summary>
+ Contains all of the background objects used by this scene.  All enabled backgrounds will be updated and
+ all visible backgrounds will be drawn.
+ </summary>
+	<value></value>
+	<returns>The list of GameBackgrounds owned by this scene.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.HudLayers">
+	<summary>
+ Contains each of the HUD layers used by this scene.  All visible layers will be updated and drawn.
+ </summary>
+	<value></value>
+	<returns>The list of HudLayers owned by this scene.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.Objects">
+	<summary>
+ Contains all of the active GameObjects in use by this scene. All enabled objects will be updated and
+ all visible objects will be drawn on each frame by the GameEngine.
+ </summary>
+	<value></value>
+	<returns>The list of GameObjects owned by this scene.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.EnableRaisingEvents">
+	<summary>
+ Specifies whether or not this scene raises is game logic related events during execution of the game loop.
+ </summary>
+	<value></value>
+	<returns>True if the scene should raise its events, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.Engine">
+	<summary>
+ Gets the active game engine responsible for this scene.
+ </summary>
+	<value></value>
+	<returns>The GameEngine instance which owns this scene.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.IsLoaded">
+	<summary>
+ Determines if the OnLoad method has executed for this scene.
+ </summary>
+	<value></value>
+	<returns>True of the scene is loaded, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameScene.Name">
+	<summary>
+ Gets the distinct name of this scene.  Each scene in a game must have
+ a unique name.
+ </summary>
+	<value></value>
+	<returns>The unique name of this GameScene.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameScene.GetAudioAsset(System.String)">
+	<summary>
+ Gets the file path to an audio asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the audio asset whose URI should be returned.</param>
+	<returns>The URI containing the file path to the specified audio asset if found, otherwise Nothing (Null).</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameScene.GetImageAsset(System.String)">
+	<summary>
+ Gets the Bitmap instance for an image asset with the specified assetName.
+ </summary>
+	<param name="assetName">The name of the image asset Bitmap to return.</param>
+	<returns>The Image represented by this Asset name if found, otherwise Nothing (Null).</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameScene.GetSceneBackgrounds">
+	<summary>
+ Gets an array of all background objects sorted by their z-order.
+ </summary>
+	<returns>An array of GameBackground sorted by z-order.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameScene.GetSceneObjects">
+	<summary>
+ Gets an array of all game objects sorted by their z-order.
+ </summary>
+	<returns>An array of GameObject sorted by z-order.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameScene">
+	<summary>
+ Provides the primary container for related game assets and objects.
+ Inherit from GameScene to create the individual levels and game screens for your game.
+ </summary>
+	<remarks>
+ The GameScene is a conceptual container for related game elements. There are various ways to implement the use of scenes,
+ with a common pattern being the use of individual scenes for the title screen, main game screen, and main menu screen.
+ </remarks>
+</member><member name="T:GdiGaming.GdiShape">
+	<summary>
+ Provides a GameObject whose image is a rendered GDI Path.  A GdiShape can be easily set to a regular polygon, or to
+ any polygon defined by an array of PointF structures.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.StaticBackground">
+	<summary>
+ Provides a stationary image as a background layer for the game.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.CollisionEventArgs.CollisionObject">
+	<summary>
+ The other object colliding with the reciever of these EventArgs.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.CollisionEventArgs">
+	<summary>
+ Contains a reference to the GameEngine, GameTime and collision data used by calls to OnCollision.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.DrawEventArgs.PaintEventArgs">
+	<summary>
+ The PaintEventArgs for the current draw buffer.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.DrawEventArgs">
+	<summary>
+ Contains a reference to the GameEngine, GameTime and PaintEventArgs used by calls to OnDraw.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.AudioPlayer.IsLoop">
+	<summary>
+ Determines if this audio file plays in a loop until stopped.
+ </summary>
+	<value></value>
+	<returns>True if the sound is being played in a loop, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.AudioPlayer">
+	<summary>
+ Provides access to a Windows MediaPlayer instance to play a single audio asset.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameInput.CurrentKeyboardState">
+	<summary>
+ Provides access to the state of the keyboard during this frame.
+ </summary>
+	<value></value>
+	<returns>The state of the keyboard during this frame.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameInput.PreviousKeyboardState">
+	<summary>
+ Provides access to the state of the keyboard during the previous frame.
+ </summary>
+	<value></value>
+	<returns>The state of the keyboard during the previous frame.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameInput.CurrentMouseState">
+	<summary>
+ Provides access to the state of the mouse during this frame.
+ </summary>
+	<value></value>
+	<returns>The state of the mouse during this frame.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameInput.PreviousMouseState">
+	<summary>
+ Provides access to the state of the mouse during the previous frame.
+ </summary>
+	<value></value>
+	<returns>The state of the mouse during the previous frame.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.DidMouseMove">
+	<summary>
+ Determines if the mouse position has changed since the last frame.
+ </summary>
+	<returns>True if the mouse position has changed, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.GetMouseLocation">
+	<summary>
+ Gets the current mouse position.
+ </summary>
+	<returns>The current mouse position.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.IsMouseButtonDown(System.Windows.Forms.MouseButtons)">
+	<summary>
+ Determines if the specified mouse button is currently pressed.
+ </summary>
+	<param name="button">The mouse button to check.</param>
+	<returns>True if the specified button is down, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.IsMouseButtonUp(System.Windows.Forms.MouseButtons)">
+	<summary>
+ Determines if the specified mouse button is currently released.
+ </summary>
+	<param name="button">The mouse button to check.</param>
+	<returns>True if the specified button is up, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.WasMouseButtonPressed(System.Windows.Forms.MouseButtons)">
+	<summary>
+ Determines if the specified mouse button was pressed and released.
+ </summary>
+	<param name="button">The mouse button to check.</param>
+	<returns>True if the specified button was pressed, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.IsKeyDown(System.Windows.Forms.Keys)">
+	<summary>
+ Determines if the specified key is currently pressed.
+ </summary>
+	<param name="key">The key to check.</param>
+	<returns>True if the specified key is down, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.IsKeyUp(System.Windows.Forms.Keys)">
+	<summary>
+ Determines if the specified key is currently released.
+ </summary>
+	<param name="key">The key to check.</param>
+	<returns>True if the specified key is up, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameInput.WasKeyPressed(System.Windows.Forms.Keys)">
+	<summary>
+ Determines if the specified key was pressed and released.
+ </summary>
+	<param name="key">The key to check.</param>
+	<returns>True if the specified key was pressed, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameInput">
+	<summary>
+ Tracks and provides access to the mouse and keyboard input for the game.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.GameEngineEventArgs.Engine">
+	<summary>
+ The active game engine.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.GameEngineEventArgs.Time">
+	<summary>
+ The current game time.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameEngineEventArgs">
+	<summary>
+ Contains a reference to the GameEngine and GameTime used by calls to OnInput, OnLoad, OnUpdate, OnMouseDown, and OnMouseUp.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameAudio.IsPaused">
+	<summary>
+ Indicates if all playing audio has been paused.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.GameAudio.MaximumAudioPlayers">
+	<summary>
+ The maximum number of simultaneous sounds. Each playing sound requires an instance of Media Player,
+ so this property is used to throttle the total number of sounds playing at one time.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.#ctor(GdiGaming.GameEngine)">
+	<summary>
+ Creates a new instance of GameAudio to service the specified GameEngine.
+ </summary>
+	<param name="engine">The GameEngine to service.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.GetPlayer(System.Guid)">
+	<summary>
+ Returns the AudioPlayer with the specified playerId if it is loaded, otherwise returns nothing (null).
+ </summary>
+	<param name="playerId">The Guid of the AudioPlayer to return.</param>
+	<returns>The AudioPlayer with the specified playerId if loaded, otherwise Nothing (Null).</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.PauseAll">
+	<summary>
+ Pauses all playing audio.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.Play(System.String,System.Boolean)">
+	<summary>
+ Plays an audio asset, specifing whether or not to play in a loop and returns the Id of the AudioPlayer which will be used.
+ </summary>
+	<param name="assetName">The name of the audio asset to play.</param>
+	<param name="isLoop">True to play the asset as a continuous loop, otherwise false to play the sound until it ends.</param>
+	<returns>The playerId of the AudioPlayer that will be used to play this sound.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.IsLoaded(System.Guid)">
+	<summary>
+ Returns true if the asset has been dequeued and its player is loaded.
+ This value will continue to return true after a sound effect has finished playing,
+ until the AudioPlayer is reused by another sound.
+ </summary>
+	<param name="playerId">The Guid of the AudioPlayer to look for.</param>
+	<returns>True if the AudioPlayer is loaded, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.IsPlaying(System.Guid)">
+	<summary>
+ Returns true if the specified AudioPlayer is loaded and currently playing.
+ </summary>
+	<param name="playerId">The Guid of the AudioPlayer to check.</param>
+	<returns>True if the AudioPlayer is loaded and player, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.ResumeAll">
+	<summary>
+ Resumes playing of all paused AudioPlayers.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.Stop(System.Guid)">
+	<summary>
+ Stops playback on the AudioPlayer specified.
+ </summary>
+	<param name="playerId">The Guid playerId of the AudioPlayer to stop.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.GameAudio.StopAll">
+	<summary>
+ Stops playback on all AudioPlayers
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameAudio">
+	<summary>
+ Provides access to the audio engine and tracks playing audio files.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GdiGaming.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GdiGaming.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:GdiGaming.RenderCanvas.GetDrawBuffer">
+	<summary>
+ Gets the current buffer image to use for drawing the next frame.
+ </summary>
+	<returns>The bitmap on which to draw the next frame.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.RenderCanvas.GetDisplayBuffer">
+	<summary>
+ Gets the current buffer image being drawn to the screen for the current frame.
+ </summary>
+	<returns>The bitmap to draw to the screen for the current frame.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.RenderCanvas.UpdateFrame">
+	<summary>
+ Updates the game display by swapping buffers and drawing the new display buffer.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.RenderCanvas">
+	<summary>
+ The primary GdiGaming API control responsible for drawing the game and monitoring input.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.GameEngineState.Stopped">
+	<summary>
+ The game engine is stopped.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.GameEngineState.Started">
+	<summary>
+ The game engine is started and active.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.GameEngineState.Paused">
+	<summary>
+ The game engine is started but inactive.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.GameEngineState">
+	<summary>
+ Defines the possible states of operation for the GameEngine.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Circle.Intersects(GdiGaming.Circle,GdiGaming.Circle)">
+	<summary>
+ Determines if two circles intersect.
+ </summary>
+	<param name="source">The first circle.</param>
+	<param name="target">The second circle.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Circle.Origin">
+	<summary>
+ The center position of the circle.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Circle.Radius">
+	<summary>
+ The distance from the center of the circle to the edge.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Circle.Bounds">
+	<summary>
+ Gets a rectangle which bounds this circle.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Circle.Diameter">
+	<summary>
+ The distance across the center of this circle.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Circle.GetLocalPath">
+	<summary>
+ Gets a graphics path object for this circle located at 0,0
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Circle.GetWorldPath">
+	<summary>
+ Gets a graphics path object for this circle at its present location in world space.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Circle.IntersectsWith(GdiGaming.Circle)">
+	<summary>
+ Determines if this circle intersects with a target circle.
+ </summary>
+	<param name="target"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.Circle">
+	<summary>
+ Defines a simple circle structure with an origin (center) and radius.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.HudLayer">
+	<summary>
+ Provides a container for various HUD elements which maintains its own z-order and can be enabled/disabled through its Visible property.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.MouseStateInfo.Item(System.Windows.Forms.MouseButtons)">
+	<summary>
+ Gets the value of pressed-state for the specified MouseButton.
+ </summary>
+	<param name="button">The MouseButton whose state should be returned.</param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.MouseStateInfo.MouseLocation">
+	<summary>
+ Returns the current mouse pointer location.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.MouseStateInfo.SetButton(System.Windows.Forms.MouseButtons,System.Boolean)">
+	<summary>
+ Sets the pressed-state for the specified MouseButton.
+ </summary>
+	<param name="button">The MouseButton whose state should be set.</param>
+	<param name="value">The pressed-state of the specified MouseButton.</param>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.MouseStateInfo.SetLocation(System.Drawing.Point)">
+	<summary>
+ Sets the current mouse pointer location.
+ </summary>
+	<param name="toValue"></param>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.MouseStateInfo">
+	<summary>
+ Tracks the state of each button on the mouse as well as the mouse position.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Vector2.Empty">
+	<summary>
+ An empty Vector2 (0,0).
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.AreVectorsCollinear(GdiGaming.Vector2,GdiGaming.Vector2,GdiGaming.Vector2,System.Single)">
+	<summary>
+ Determines if the area of the three parameter vectors is within the tolerance specified.
+ </summary>
+	<param name="vectorA">The first point of the area to measure.</param>
+	<param name="vectorB">The second point of the area to measure.</param>
+	<param name="vectorC">The third point of the area to measure.</param>
+	<param name="tolerance">The +/- tolerance allowable for the measured area.</param>
+	<returns>True if the vectors are collinear, otherwise false.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetAngleTo(GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Determines the angle in degrees between two vectors.
+ </summary>
+	<param name="source">The source vector to measure from.</param>
+	<param name="target">The target vector to measure to.</param>
+	<returns>The angle from source to target.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetArea(GdiGaming.Vector2,GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Gets the area specified by three points.
+ </summary>
+	<param name="vectorA">The first point of the area to measure.</param>
+	<param name="vectorB">The second point of the area to measure.</param>
+	<param name="vectorC">The third point of the area to measure.</param>
+	<returns>The area of the three vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetCrossProduct(GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Gets the cross product of two vectors (source.x * target.y - source.y * target.x).
+ </summary>
+	<param name="source">The first vector.</param>
+	<param name="target">The second vector.</param>
+	<returns>The cross product of the two vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetDistance(GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Calculates the distance between two vectors. This value is always positive.
+ </summary>
+	<param name="source">The source vector to measure from.</param>
+	<param name="target">The target vector to measure to.</param>
+	<returns>The distance between the two vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetDotProduct(GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Gets the dot product of two vectors (source.x * target.x + source.y * target.y).
+ </summary>
+	<param name="source">The first vector.</param>
+	<param name="target">The second vector.</param>
+	<returns>The dot-product of the two vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetMagnitude(GdiGaming.Vector2)">
+	<summary>
+ Gets the magnitude of a vector (sqrt[x^2 + y^2]).
+ </summary>
+	<param name="source">The vector to measure.</param>
+	<returns>The magnitude of the vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetNormalized(GdiGaming.Vector2)">
+	<summary>
+ Gets the normalized version of a vector (x/magnitude, y/magnitude).
+ </summary>
+	<param name="source">The vector to normalize.</param>
+	<returns>The normalized vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetRadiansTo(GdiGaming.Vector2,GdiGaming.Vector2)">
+	<summary>
+ Determines the angle in radians between two vectors.
+ </summary>
+	<param name="source">The source vector to measure from.</param>
+	<param name="target">The target vector to measure to.</param>
+	<returns>The angle, in radians, between the two vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.GetVectorToward(GdiGaming.Vector2,GdiGaming.Vector2,System.Single)">
+	<summary>
+ Calculates a vector which is the specified distance from source to target, at the angle between source and target.
+ Set an object's position to the result of this method to move that object toward (positive distance) or
+ away from (negative distance) another target object.
+ </summary>
+	<param name="source">The source vector to calculate from.</param>
+	<param name="target">The destination vector to calculate toward.</param>
+	<param name="distance">The distance to calculate. Use positive values to move toward target and negative to move away from target.</param>
+	<returns>The Vector2 which is the specified distance toward or away from the target.</returns>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Vector2.X">
+	<summary>
+ The X component value of this vector.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:GdiGaming.Vector2.Y">
+	<summary>
+ The Y component value of this vector.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Vector2.Horizontal">
+	<summary>
+ The horizontal or x-axis component of the vector.
+ </summary>
+	<value>Sets the horizontal or x-axis component of the vector.</value>
+	<returns>Gets the horizontal or x-axis component of the vector.</returns>
+	<remarks></remarks>
+</member><member name="P:GdiGaming.Vector2.Vertical">
+	<summary>
+ The vertical or y-axis component of the vector.
+ </summary>
+	<value>Sets the vertical or y-axis component of the vector.</value>
+	<returns>Gets the vertical or y-axis component of the vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.DistanceTo(GdiGaming.Vector2)">
+	<summary>
+ Gets the distance to a target vector.
+ </summary>
+	<param name="target">The target to measure the distance to.</param>
+	<returns>The distance from this vector to the target.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.AngleTo(GdiGaming.Vector2)">
+	<summary>
+ Gets the angle in degrees between this vector and a target.
+ </summary>
+	<param name="target">The target vector to measure the angle between.</param>
+	<returns>The angle between this vector and the target.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.RadiansTo(GdiGaming.Vector2)">
+	<summary>
+ Gets the angle in radians between this vector and a target.
+ </summary>
+	<param name="target">The garget vector to measure the angle between.</param>
+	<returns>The angle between this vector and the target.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.VectorToward(GdiGaming.Vector2,System.Single)">
+	<summary>
+ Gets a vector which is the specified distance from this vector, at an angle toward the target (or away from the target with negative values for distance).
+ </summary>
+	<param name="target">The target vector to calculate toward.</param>
+	<param name="distance">The distance to move toward the target. Use a negative value to move away from the target.</param>
+	<returns>A vector which is the specified distance toward the target.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.Magnitude">
+	<summary>
+ Gets the magnitude of this vector.
+ </summary>
+	<returns>This vector's magnitude.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.Normalize">
+	<summary>
+ Gets the normalized version of this vector.
+ </summary>
+	<returns>The normalization of this vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.ToPoint">
+	<summary>
+ Converts this vector to a Point structure.
+ </summary>
+	<returns>A System.Point representing this vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.ToPointF">
+	<summary>
+ Converts this vector to a PointF structure.
+ </summary>
+	<returns>A System.PointF representing this vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.ToString">
+	<summary>
+ Returns the string representation of this vector in the format [X=n.nn/Y=n.nn]
+ </summary>
+	<returns>The string representation of this vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.ToString(System.String)">
+	<summary>
+ Returns the string representation of this vector using the supplied string format,
+ where {0} is supplied with the X field value and {1} is supplied with the Y field value.
+ </summary>
+	<param name="format">The format string to use ({0}=X, {1}=Y).</param>
+	<returns>The formatted string representation of this vector.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.CompareTo(GdiGaming.Vector2)">
+	<summary>
+ Compares the magnitude of this vector to another vector.
+ </summary>
+	<param name="other">The vector to compare to.</param>
+	<returns>The difference in magnitude between vectors.</returns>
+	<remarks></remarks>
+</member><member name="M:GdiGaming.Vector2.CompareTo(System.Object)">
+	<summary>
+ Compares this vector to the target object using magnitude comparison if the target is a vector, and
+ converting Point and PointF to vectors. Any non-vector comparison returns -1.
+ </summary>
+	<param name="obj">The object to compare to</param>
+	<returns>The difference in magnitude between vectors if obj is Vector2, Point or PointF, otherwise -1.</returns>
+	<remarks></remarks>
+</member><member name="T:GdiGaming.Vector2">
+	<summary>
+ Defines a two-dimensional vector with X,Y coordinates and provides a variety of helper methods.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

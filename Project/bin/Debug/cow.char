@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <character>
+    <name>Cow</name>
+    <class>Animal</class>
+    <race>Mammal</race>
+    <desc>A black and white cow.</desc>
+    <str>2</str>
+    <dex>4</dex>
+    <sta>1</sta>
+    <int>1</int>
+    <cha>2</cha>
+    <hitpoints>8</hitpoints>
+    <anim_walk_filename>cow walk.png</anim_walk_filename>
+    <anim_walk_width>96</anim_walk_width>
+    <anim_walk_height>96</anim_walk_height>
+    <anim_walk_columns>8</anim_walk_columns>
+    <anim_attack_filename>cow eat.png</anim_attack_filename>
+    <anim_attack_width>96</anim_attack_width>
+    <anim_attack_height>96</anim_attack_height>
+    <anim_attack_columns>9</anim_attack_columns>
+    <anim_die_filename>cow eat.png</anim_die_filename>
+    <anim_die_width>0</anim_die_width>
+    <anim_die_height>0</anim_die_height>
+    <anim_die_columns>1</anim_die_columns>
+    <anim_talk_filename>cow eat.png</anim_talk_filename>
+    <anim_talk_width>96</anim_talk_width>
+    <anim_talk_height>96</anim_talk_height>
+    <anim_talk_columns>9</anim_talk_columns>
+    <dropgold1>1</dropgold1>
+    <dropgold2>10</dropgold2>
+    <drop1_num>0</drop1_num>
+    <drop2_num>0</drop2_num>
+    <drop3_num>0</drop3_num>
+    <drop1_item />
+    <drop2_item />
+    <drop3_item />
+    <element>N/A</element>
+  </character>
+</DocumentElement>
